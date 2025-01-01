@@ -1,7 +1,8 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/my-website', // Must match repo name exactly
+  basePath: '/my-website',
   images: {
     unoptimized: true,
   },
